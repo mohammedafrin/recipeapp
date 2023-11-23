@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECIPE APP</title>
+</head>
+<link rel="stylesheet" href="stylerecipe.css">
+<body>
+    <header>
+        <nav>
+            <h1>Recipe app</h1>
+            <form >
+                <input type="text" placeholder="search recipes" class="searchbox" id="searchbox">
+                <input type="submit" value="search" class="searchbutton" id="searchbutton">
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="recipe-container" id="recipe-container">
+        <h2>search your fav recipes</h2>
+            </div>
+            <div class="recipe-details">
+                <button type="button" class="recipe-closebutton" id="closebutton">
+                    <i class="fa-solid fa-xmark" id="crossmark"></i>
+                </button>
+                <div class="recipe-deatils-content" id="recipe-details-content">
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/ef94427b43.js" crossorigin="anonymous"></script>
+    <script src="recipejs.js"></script>
+</body>
+</html>
